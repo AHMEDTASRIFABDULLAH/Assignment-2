@@ -8,10 +8,11 @@
 html,
 body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 header {
   margin: 0 auto;
-  background-color: #202020;
+  background-color: #101010;
 }
 /*---------------- nav Sections --------------- */
 nav {
@@ -421,9 +422,13 @@ td {
   background: rgba(255, 255, 255, 0.1);
   padding: 0px 0px 0px 20px;
 }
+option {
+  color: black;
+}
 
 .sex-input {
   padding: 0px 0px 0px 20px;
+  display: flex;
 }
 select {
   font-size: 16px;
@@ -475,6 +480,7 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 58px 0 88px 0;
 }
 .Grid-section-heros {
   max-width: 1060px;
@@ -517,6 +523,7 @@ select {
   width: 326.67px;
   height: 272px;
   border-radius: 18px;
+  opacity: 0.8;
 }
 .grid-right {
   display: flex;
@@ -553,5 +560,75 @@ select {
   width: 326.67px;
   height: 272px;
   border-radius: 18px;
+  opacity: 0.8;
 }
 /* <!--------- Grid -- Section END -------- --> */
+
+footer {
+  width: 100%;
+  background-color: #1a1a1a;
+}
+.sub-footer {
+  max-width: 1060px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 66px;
+}
+.sub-text-one h1 {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 120%;
+  color: #e6533c;
+  padding-bottom: 20px;
+}
+.sub-text-one p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff80;
+}
+.sub-text-two h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #ffffff;
+  padding-bottom: 29px;
+}
+.sub-text-two p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ffffff80;
+  padding: 10px;
+}
+.sub-text-three h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #ffffff;
+  padding-bottom: 29px;
+}
+.sub-text-three p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ffffff80;
+  padding: 10px;
+}
+.copyright {
+  max-width: 1060px;
+  margin: 0 auto;
+  text-align: center;
+}
+.copyright p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff80;
+  padding: 36px;
+}
+.copyright hr {
+  border: 1px solid #ffffff80;
+  margin-top: 89px;
+}
