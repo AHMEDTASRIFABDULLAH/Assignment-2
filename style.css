@@ -303,3 +303,128 @@ main {
   line-height: 22px;
   border: none;
 }
+/* <!--------- Run Extra-section ENS-------- --> */
+
+.bmi-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+}
+.bmi-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  color: #ffffff;
+}
+.bmi-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff80;
+}
+/* <!--------- Bmi-section-------- --> */
+.bmisection {
+  width: 100%;
+  background-color: #222222;
+  margin-top: 88px;
+}
+.bmi-calculator {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 0 52px;
+}
+.bim-chart h1 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0 0 52px 0;
+}
+.bmi-table {
+  width: 310px;
+  height: 216px;
+}
+.bmi-table {
+  text-align: left;
+}
+.bmi-table,
+tr,
+th,
+td {
+  border: 1px solid #ffffff1a;
+  border-collapse: collapse;
+}
+.bmi-th {
+  padding: 0 0px 0 18px;
+}
+.weight-th {
+  padding: 0 0px 0 24px;
+}
+th {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+}
+td {
+  color: #ffffff80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.bim-calculate h1 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  color: #fff;
+}
+.bim-calculate p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff80;
+  padding: 14px 0 34px 0;
+}
+.input-four {
+  width: 282.5px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.input-four::placeholder {
+  padding: 12px 20px 12px 20px;
+}
+.input-one {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.input-two {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+#big-input {
+  width: 577px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.cal-btn {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: #e6533c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border: none;
+  margin-top: 34px;
+}
