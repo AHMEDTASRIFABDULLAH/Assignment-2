@@ -1,0 +1,200 @@
+@import url("https://fonts.cdnfonts.com/css/miama?styles=627");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+header {
+  margin: 0 auto;
+  background-color: #202020;
+}
+/*---------------- nav Sections --------------- */
+nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 61px 0 0 0;
+  max-width: 80%;
+}
+nav i {
+  color: #e6533c;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%;
+}
+.nav-links {
+  display: flex;
+  width: 465px;
+  height: 46px;
+  border-radius: 39px;
+  border: 1px solid #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px 0 4px;
+}
+.nav-links li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ffffff;
+}
+.home-color {
+  background-color: #e6533c;
+  width: 92px;
+  height: 38px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 46px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.About {
+  width: 92px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*---------------- nav Sections END --------------- */
+/*---------------- header hero Sections --------------- */
+.header-hero {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 32px 0 0 0;
+}
+.header-hero-left {
+  width: 100%;
+}
+.header-hero-h1 {
+  color: #ffffff;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.header-hero-h1 span {
+  font-family: "Miama", sans-serif;
+  color: #ffffff;
+  font-size: 156px;
+  font-weight: 400;
+}
+.header-hero-p {
+  color: #ffffff80;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 28px 0 28px 0;
+}
+.btn {
+  display: flex;
+  gap: 14px;
+}
+.header-btn-one {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: #e6533c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border: none;
+}
+.header-btn-two {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: #ffffff00;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1px solid #ffffff;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 580px;
+}
+.header-hero-right {
+  width: 50%;
+  background-image: url(images/Images\ 2.png);
+  height: 580px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 85%;
+}
+.free-video-one {
+  width: 206px;
+  height: 96px;
+  background-color: #3030308a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 63px;
+  left: 105px;
+  backdrop-filter: blur(10px);
+}
+.red-bal {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e6533c;
+}
+.review h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+}
+.review p {
+  color: #efede8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.free-video-two {
+  width: 193px;
+  height: 98px;
+  border-radius: 12px;
+  background-color: #393939;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  position: absolute;
+  right: -30px;
+  top: 130px;
+}
+.free-video-two h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+}
+.free-video-two p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/*---------------- header hero Sections END --------------- */
