@@ -198,3 +198,108 @@ a {
   line-height: 24px;
 }
 /*---------------- header hero Sections END --------------- */
+/* <!-- ----------  habit-section-------------------------> */
+main {
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  background-color: #000000;
+}
+.habits-text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80%;
+}
+.habits-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+.habits-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff80;
+}
+.habit-img {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 58px 0 0 0;
+}
+.box {
+  width: 231px;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+.box img {
+  border-radius: 50%;
+}
+.img-text h1 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 6px;
+}
+.img-text p {
+  color: #ffffff80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* <!--------- Run Extra-section-------- --> */
+.run {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 101px;
+  background-color: #222222;
+  border-radius: 18px;
+  padding: 41px 32px 29px 54px;
+}
+.run-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.run-left p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff80;
+  padding: 14px 0 34px 0;
+}
+.run-img-container {
+  width: 366px;
+  height: 312px;
+}
+.run-img-container {
+  width: 366px;
+  height: 312px;
+  background-image: url(images/Rectangle\ 22.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.run-btn {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: #e6533c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border: none;
+}
