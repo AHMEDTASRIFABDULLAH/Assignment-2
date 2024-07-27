@@ -591,7 +591,7 @@ select {
 }
 .review-left p,
 h4 {
-  color: #1a1a1a;
+  color: #d4cbcb;
 }
 .review-right {
   text-align: center;
@@ -613,28 +613,28 @@ h4 {
 .review-one {
   max-width: 200px;
   height: 280px;
-  background-color: #fff1f2;
+  background-color: #050505;
   padding: 15px;
   border-radius: 20px;
-  border: 10px solid salmon;
+  border: 5px solid #393838;
   cursor: pointer;
 }
 .review-two {
   max-width: 200px;
   height: 280px;
-  background-color: #fff1f2;
+  background-color: #050505;
   padding: 15px;
   border-radius: 20px;
-  border: 10px solid salmon;
+  border: 5px solid #393838;
   cursor: pointer;
 }
 .review-three {
   max-width: 200px;
   height: 280px;
-  background-color: #fff1f2;
+  background-color: #050505;
   padding: 15px;
   border-radius: 20px;
-  border: 10px solid salmon;
+  border: 5px solid #393838;
   cursor: pointer;
 }
 .person {
@@ -912,6 +912,9 @@ footer {
     margin: 0 auto;
     margin-top: 40px;
   }
+  .our-review {
+    gap: 10px;
+  }
   .review-right {
     width: 100%;
     padding: 20px;
@@ -928,22 +931,20 @@ footer {
   }
   .review-one {
     max-width: 100%;
-    border: 5px solid salmon;
+    border: 5px solid #393838;
   }
   .review-two {
     max-width: 100%;
-    border: 5px solid salmon;
+    border: 5px solid #393838;
   }
   .review-three {
     max-width: 100%;
-    border: 5px solid salmon;
+    border: 5px solid #393838;
   }
   .review-left p {
-    color: #1a1a1a;
     font-size: 20px;
   }
   .review-left h4 {
-    color: #1a1a1a;
     font-size: 24px;
     font-weight: 600;
   }
@@ -959,5 +960,17 @@ footer {
   }
   .jo-btn button {
     width: 100%;
+  }
+  .new-review h1 {
+    font-size: 25px;
+  }
+  .review-one:hover {
+    rotate: 0deg;
+  }
+  .review-two:hover {
+    rotate: 0deg;
+  }
+  .review-three:hover {
+    rotate: 0deg;
   }
 }
