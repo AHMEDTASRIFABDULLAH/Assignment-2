@@ -417,6 +417,9 @@ td {
   gap: 12px;
   margin-bottom: 12px;
 }
+.input-two select {
+  border-right: 20px solid transparent;
+}
 
 #big-input {
   width: 577px;
@@ -424,6 +427,7 @@ td {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   padding: 0px 0px 0px 20px;
+  border-right: 20px solid transparent;
 }
 option {
   color: black;
