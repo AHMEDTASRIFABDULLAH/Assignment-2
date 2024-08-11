@@ -13,7 +13,21 @@ body {
 header {
   margin: 0 auto;
   background-color: #101010;
-  background-image: url(images/Frame\ 7.png);
+  background-image: linear-gradient(
+    to bottom,
+    #161616,
+    #161616,
+    #1a1a1a,
+    #1a1a1a,
+    #1a1a1a,
+    #1a1a1a,
+    #1a1a1a,
+    #1a1a1a,
+    #1a1a1a,
+    #161616,
+    #100f0f,
+    #040404
+  );
 }
 /*---------------- nav Sections --------------- */
 nav {
