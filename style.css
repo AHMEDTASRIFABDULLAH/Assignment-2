@@ -414,6 +414,12 @@ td {
   background: rgba(255, 255, 255, 0.1);
   border: none;
 }
+.height {
+  width: 282.5px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+}
 .input-four::placeholder {
   padding: 12px 20px 12px 20px;
   font-size: 16px;
@@ -1012,5 +1018,8 @@ footer {
     color: #ffffff;
     font-size: 32px;
     display: block;
+  }
+  .input-four {
+    width: 100%;
   }
 }
